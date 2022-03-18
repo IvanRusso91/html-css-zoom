@@ -1,0 +1,21 @@
+/* HEADER */
+
+div.view,
+div.full {
+  align-items:center;
+  background-color: rgb(74,74,74);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+div.view{
+  margin-right: 5px;
+}
+
+div.view i{
+  padding-right: 5px;
+}
+
+/* /HEADER */
+

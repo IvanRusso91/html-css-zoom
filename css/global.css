@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+header{
+  background-color: black;
+  justify-content: flex-end;
+  padding:  5px 10px 25px 0;
+}
+
+main{
+  height: calc(100vh - 168px);
+}
+
 ul{
   list-style: none;
 }
