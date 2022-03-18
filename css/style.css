@@ -19,3 +19,32 @@ div.view i{
 
 /* /HEADER */
 
+/* MAIN */
+
+div.box-main{
+  width: 250px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+}
+
+div.box-main{
+  position: relative;
+  background-image: url(../img/gatto-scontroso.jpg);
+  background-position: left;
+  background-size: cover;
+}
+
+div.name{
+  width: 45%;
+  position: relative;
+  margin-top: 173px;
+  padding: 5px;
+  background-color: rgba(74, 74, 74, 0.5);
+  color: white; 
+}
+
+div.name i{
+  padding-right: 5px;
+}
+
+/* /MAIN */

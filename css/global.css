@@ -5,13 +5,17 @@
 }
 
 header{
-  background-color: black;
   justify-content: flex-end;
   padding:  5px 10px 25px 0;
+  background-color: black;
 }
 
 main{
-  height: calc(100vh - 168px);
+  height: calc(100vh - 158px);
+  overflow-y:auto ;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
 }
 
 ul{
