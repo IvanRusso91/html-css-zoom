@@ -17,6 +17,7 @@ div.view i{
   padding-right: 5px;
 }
 
+
 /* /HEADER */
 
 /* MAIN */
@@ -36,7 +37,7 @@ div.box-main{
 
 div.name{
   width: 45%;
-  position: relative;
+  position: absolute;
   margin-top: 173px;
   padding: 5px;
   background-color: rgba(74, 74, 74, 0.5);
@@ -48,3 +49,53 @@ div.name i{
 }
 
 /* /MAIN */
+
+/* FOOTER */
+
+div.foot-left ,
+div.foot-center,
+div.foot-right{
+ align-items: center
+}
+
+div.foot-left{
+  padding-left: 20px;
+}
+
+div.foot-center{
+  width: 40%;
+}
+
+div.foot-right{
+  cursor: pointer;
+  background-color: rgb(74, 74, 74);
+}
+
+div.foot-left i,
+div.foot-center i,
+div.foot-right i{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+div.foot-left li,
+div.foot-center li,
+div.foot-right li{
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+div.foot-right a{
+  padding: 0 20px ;
+  text-decoration: none;
+  color: red;
+}
+
+div.foot-left li:active,
+div.foot-center li:active,
+div.foot-right li:active{
+  color:rgb(75, 200, 0);
+
+}
+
+/* /FOOTER */
