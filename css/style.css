@@ -92,11 +92,8 @@ div.foot-right a{
   color: red;
 }
 
-div.foot-left li:active,
-div.foot-center li:active,
-div.foot-right li:active{
+div.foot-center .active{
   color:rgb(75, 200, 0);
-
 }
 
 /* /FOOTER */
