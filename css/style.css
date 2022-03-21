@@ -55,7 +55,8 @@ div.name i{
 div.foot-left ,
 div.foot-center,
 div.foot-right{
- align-items: center
+ align-items: center;
+ flex-shrink: 0;
 }
 
 div.foot-left{
